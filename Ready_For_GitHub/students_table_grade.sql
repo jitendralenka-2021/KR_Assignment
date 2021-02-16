@@ -17,8 +17,6 @@ insert into students(name, marks) values('Srikanta', 55);
 insert into students(name, marks) values('Rahul', 44);
 insert into students(name, marks) values('Etina', 35);
 
-
-SET sql_mode = 'PIPES_AS_CONCAT';
 select id, name, marks,
     CASE
          when marks<40 then 'F'
